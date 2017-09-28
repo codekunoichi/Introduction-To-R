@@ -1,0 +1,5 @@
+Things to remember while working with R Studio:
+
+- If R is restarted then you should reload the necessary packages using "require"
+- Check on the package pane that the package you intend to use the check box is checked.
+- If you have been using few packages and half way through you restart R the packges previously loaded will no longer be loaded, so be mindful while working on command line - use require to load the necessary packages prior to invoking the commands.
