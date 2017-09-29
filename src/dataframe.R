@@ -114,3 +114,4 @@ theDF["Sport"]
 
 #short cut to get a column as a vector
 theDF[["Sport"]]
+
