@@ -13,3 +13,5 @@ Things to remember while working with R Studio:
 - NA - Missing Data
 
 - NULL - absence of data c(1, NULL, 3, 4) - length = 3
+
+-- Data frames can store in each column different types of data types.
