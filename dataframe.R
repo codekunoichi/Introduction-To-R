@@ -48,3 +48,16 @@ rownames(theDF) <- c("a", "b", "c",
                      "g", "h", "i", "j")
 
 theDF
+rownames(theDF) <- NULL
+rownames(theDF)
+
+#printing entire frame will be cluttering the screen so to peak into the data frame, 
+# use head, tail function
+
+#to review the structure of data frames use head function
+head(theDF) #default is 6 rows
+head(theDF, n=7) #n is how many rows to print
+
+#to review the structure of data at the tail end, use the "tail" function
+tail(theDF)
+tail(theDF, n=7)
