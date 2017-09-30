@@ -1,4 +1,7 @@
 # Make boxplot and violin plot with ggplot2
+require(ggplot2)
+
+head(diamonds)
 
 #box plot
 ggplot(diamonds, aes(y=carat, x= 1)) + geom_boxplot()
