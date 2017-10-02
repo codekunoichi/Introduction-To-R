@@ -59,3 +59,20 @@ hello.person <- function(first, last="Doe", ...)
 
 hello.person("Jared", "Lander", bye="Goodbye")
 hello.person("Jared", "Holmes", "Goodbye")
+
+# In R by default if the function last line evaluates a value, it will be returned
+
+double.num <- function(x)
+{
+  x * 2
+}
+
+double.num(5)
+
+# One can specify the return statement as well.
+double.num <- function(x)
+{
+  return (x * 2)
+}
+
+double.num(6)
