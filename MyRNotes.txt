@@ -22,3 +22,5 @@ Things to remember while working with R Studio:
 
 -- Always use &, | only for if checks, else you will get unexpected results
 -- Read on &&, || here https://stackoverflow.com/questions/6558921/r-boolean-operators-and and its quirkyness
+
+-- Don't fall into the trap of using for loop instead of vectorization. For is frowned upon in R
