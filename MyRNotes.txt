@@ -17,3 +17,5 @@ Things to remember while working with R Studio:
 -- Data frames can store in each column different types of data types.
 
 -- Place the database username/password in Keychain access and use "keyringr" package to decrypt the password. Do not place password in clear text.
+
+-- In an if/else conditional flow. Place the else at the end of curly braces for if. else cannot be in its own line
