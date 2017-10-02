@@ -3,6 +3,15 @@ require(ggplot2)
 
 head(diamonds)
 
+class(diamonds)
+class(diamonds$cut)
+diamonds$cut
+
+#subset the data frame with specific rows.
+# find all rows with cut = Good
+good_cut <- subset(diamonds, cut == "Good")
+good_cut
+
 #box plot
 ggplot(diamonds, aes(y=carat, x= 1)) + geom_boxplot()
 ggplot(diamonds, aes(y=carat, x=cut)) +geom_boxplot()
