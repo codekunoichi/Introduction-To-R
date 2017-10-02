@@ -19,3 +19,6 @@ Things to remember while working with R Studio:
 -- Place the database username/password in Keychain access and use "keyringr" package to decrypt the password. Do not place password in clear text.
 
 -- In an if/else conditional flow. Place the else at the end of curly braces for if. else cannot be in its own line
+
+-- Always use &, | only for if checks, else you will get unexpected results
+-- Read on &&, || here https://stackoverflow.com/questions/6558921/r-boolean-operators-and and its quirkyness
